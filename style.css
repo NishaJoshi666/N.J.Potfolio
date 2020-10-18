@@ -1,0 +1,48 @@
+.header{
+    background-color: #ff6360;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+a:link,a:visited{
+    color: #000000;
+}
+
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    background-color: #00a0ff;
+    background-size: 100% 100%;
+    border : 20px #000000;
+    border-style : double;
+}
+
+.trex{
+    position: relative;
+}
+
+.trex h3{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+}
+
+.trex:hover h3{
+    opacity: 1;
+}
+
+.trex:hover img{
+    opacity: 0.33;
+}
